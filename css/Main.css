@@ -10,6 +10,16 @@ body html{
     overflow: hidden;
 }
 
+@media only screen and (min-width: 600px){
+
+}
+
+@media only screen and (max-width: 600px){ }
+
+@media only screen and (min-width: 768px) { }
+
+
+
 .navbar{
     width: 40px;
     height: 100%;
@@ -23,11 +33,18 @@ body html{
     top: 0;
 }
 
+
+
+
+
 .navbar img{
     margin-top: 200%;
+    position:relative;
     width: 35px;
     height: 35px;
 }
+
+
 
 .container1A{
     background-color: #003333;
@@ -41,7 +58,7 @@ body html{
 }
 
 .bio{
-    margin-left: 1%;
+    margin-left: auto;
     margin-bottom: 20%;
     padding: 5%;
     position: relative;
@@ -137,6 +154,26 @@ body html{
     line-height: 25px;
     text-transform: uppercase;
 }
+.headlineL{
+    font-family: "Arial", sans-serif ;
+    color:white;
+    text-shadow: 2px 1px 0 rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.headline2{
+   font-size: 25px;
+    color:   #ff6600;
+}
+
+.headline3{
+    font-size: 11px;
+    color:   #ff6600;
+}
 
 
 
@@ -175,6 +212,12 @@ body html{
     padding-left: 10%;
     padding-top: 2%;
     float:left;
+
+}
+
+.objektorienteret img{
+    height: 250px;
+    width: 250px;
 }
 
 .objektorienterettekst{
@@ -281,18 +324,21 @@ box-shadow: 3px 3px 1px 2px white;
 
 }
 
+.webtekst h3, .objektorienterettekst h3{
+    font-size: 13px;
+}
+
 .objektorienteret img{
     padding: 1%;
-    height: 25%;
-	width: 250px;
-	height: 250px;
+    height: 250px;
+    width: 250px;
 }
 
 .web img{
     padding: 1%;
-    height: 25%;
-	width: 250px;
-	height: 250px;
+    height: 250px;
+    width: 250px;
+
 }
 
 .sideProj{
@@ -445,4 +491,226 @@ box-shadow: 3px 3px 1px 2px white;
     word-spacing: 5px;
     line-height: 25px;
     text-transform: uppercase;
+}
+
+
+@media only screen 
+and (max-device-width: 769px)
+and (max-device-width: 320px)
+and (min-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (min-device-width: 375px) 
+and (max-device-width: 667px)
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+
+{body, html{
+		margin-top: 0;
+        width: 105%;
+        max-width: 100%;
+        overflow-x: hidden;
+        margin-left: 0;
+    }
+
+    .container1A{
+       padding-top: 8%;
+        height: 180vh;
+        width: 101%;
+        max-width: 100%;
+    }
+
+    .container2A{
+        width: 100%;
+        max-width: 100%;
+        height: 305vh;
+
+    }
+
+    .navbar{
+        height: 40px;
+        width: 100%;
+    }
+
+    .navbar img{
+        z-index: 1;
+       margin-top: 0;
+        margin-left: 20%;
+    }
+
+
+
+    .bio{
+        padding-bottom:50vh;
+        width: 100vh;
+    }
+
+    .biotext{
+        margin: 20px;
+        width: 450px;
+        height: 351px;
+        position:absolute;
+        display: block;
+    }
+
+
+    .biotext p{
+        font-family: "Arial", sans-serif ;
+        font-size: 9px;
+        color:white;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        line-height: 11px;
+    }
+
+    .background{
+    margin-right: 40px;
+        margin-left: 52px;
+        width: 65vh;
+    }
+
+    .background p{
+        font-family: "Arial", sans-serif ;
+        font-size: 9px;
+        color:white;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        line-height: 25px;
+    }
+
+    .headlineL{
+        font-size: 12px;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+        line-height: 11px;
+    }
+
+    .work{
+        margin-top: 20px;
+        margin-right: 40px;
+        margin-left: 52px;
+        width: 65vh;}
+
+    .work p{
+        font-family: "Arial", sans-serif ;
+        font-size: 9px;
+        color:white;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        line-height: 25px;
+    }
+
+    .objektorienteret{
+        width: 100%;
+    }
+
+
+    .objektorienterettekst, .webtekst{
+        vertical-align: top;
+        width: 450px;
+        height: 220px;
+        padding-top: 0;
+        margin-bottom: 25px;
+
+    }
+
+    .objektorienteret img, .web img{
+        width:200px;
+        height: 150px;
+    }
+
+    .objektorienterettekst ul{
+        font-size: 10px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        line-height: 11px;
+    }
+
+    .objektorienterettekst li{
+        display: inline;
+        vertical-align: middle;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+    .objektorienterettekst p,  .webtekst p{
+        font-family: "Arial", sans-serif ;
+        font-size: 9px;
+        color:white;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        line-height: 15px;
+    }
+
+  .webtekst h3{
+      font-size: 12px;
+      letter-spacing: 2px;
+      word-spacing: 3px;
+      line-height: 11px;
+  }
+
+  .sideProj h1{
+      margin-bottom: 20px;
+  }
+
+  .sideProj h3{
+      margin-left: 40px;
+      margin-right: 40px;
+  }
+
+  .sideProj img{
+      margin-top: 20px;
+      margin-left: 20%;
+
+  }
+
+
+  .container3A{
+      height: 70vh;
+  }
+
+  .projectText{
+      margin-left: 0;
+      width: 60vh;
+      height: 45vh;
+
+  }
+
+  .projectText p{
+      font-family: "Arial", sans-serif ;
+      font-size: 11px;
+      color:white;
+      letter-spacing: 3px;
+      word-spacing: 5px;
+      line-height: 20px;
+  }
+
+
+
+    .footerContact{
+        width: 100%;
+        height: 20px;
+        background-color: black;
+        display: block;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+
+    }
+	
+	
+    .footerContact h3{
+        margin-left: 4%;
+		font-size: 10px;
+		word-spacing: 2px;
+		
+	
+    }
+
+
 }
