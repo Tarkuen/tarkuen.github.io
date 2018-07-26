@@ -494,12 +494,12 @@ box-shadow: 3px 3px 1px 2px white;
 }
 
 
-@media (min-width:320px)
-and (min-width:480px)
-and (min-width:600px)
-and (min-width:801px)
-and (min-width:1025px)
-and (min-width:1281px){body, html{
+@media only screen (min-width:320px)
+and only screen(min-width:480px)
+and only screen(min-width:600px)
+and only screen(min-width:801px)
+and only screen(min-width:1025px)
+and only screen (min-width:1281px){body, html{
 		margin-top: 0;
         width: 105%;
         max-width: 100%;
