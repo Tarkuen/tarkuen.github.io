@@ -495,18 +495,13 @@ box-shadow: 3px 3px 1px 2px white;
 
 
 @media only screen 
-and (max-device-width: 769px)
-and (max-device-width: 320px)
-and (min-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (min-device-width: 320px) 
-and (max-device-width: 568px)
-and (min-device-width: 375px) 
-and (max-device-width: 667px)
-and (min-device-width: 414px) 
-and (max-device-width: 736px) 
-and (min-device-width: 375px) 
-and (max-device-width: 812px) 
+and (min-width:320px) 
+and (min-width:481px)
+and (min-width:641px)
+and (min-width:961px)
+and (min-width:1025px)
+and (min-width:1281px)
+
 
 {body, html{
 		margin-top: 0;
