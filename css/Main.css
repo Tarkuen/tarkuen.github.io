@@ -1,4 +1,4 @@
-@media screen and (min-device-width: 801px){
+
 body html{
     position:fixed;
     right: 0;
@@ -477,11 +477,15 @@ box-shadow: 3px 3px 1px 2px white;
     line-height: 25px;
     text-transform: uppercase;
 }
-}
 
-@media only screen
-and (min-device-width: 321px)
-and (max-device-width: 800px)
+
+
+
+@media only screen and (min-width: 35em)
+
+
+
+
 {
 	body, html{
 		margin-top: 0;
