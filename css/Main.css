@@ -481,6 +481,7 @@ box-shadow: 3px 3px 1px 2px white;
 @media screen 
 and (min-width: 321px)
 and (min-width: 481px)
+and (max-width: 801px)
 {
 	body, html{
 		margin-top: 0;
