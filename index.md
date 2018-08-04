@@ -4,7 +4,7 @@
 
 layout: null
 ---
-	<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -114,7 +114,7 @@ layout: null
     <div class="background3">
     <h1 class="headline">Projects</h1>
         <div class="project1Image">
-           <img class="project1Image p1" src="images/Untitled.png">
+           <img class="project1Image p1" src="images/3.sk1">
             <div class="overlay" id="project1" onclick="">
                 <h1 class="headline"><span class="headline2">P</span>roject 1</h1>
                 <br>
@@ -127,7 +127,7 @@ layout: null
 
 
             </div>
-           <img class="project1Image p2" src="images/Foodproject.png">
+           <img class="project1Image p2" src="images/12.sk1">
 
             <div class="overlay" id="project2">
                 <h1 class="headline"><span class="headline2">P</span>roject 2</h1>
