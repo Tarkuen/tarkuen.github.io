@@ -4,7 +4,6 @@
 
 layout: null
 ---
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,6 +11,7 @@ layout: null
           content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
     <title>Title</title>
     <link rel='stylesheet' href='css/style.css'/>
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
 
 
 </head>
@@ -35,7 +35,7 @@ layout: null
 
             <h2 class="headline">Hvem er jeg?</h2>
 
-            <p>Midlertidigt væk - Er ved at blive omskrevet
+            <p id="catchphrase">Release Early - Release Often
             <br>
             <br>
             </p>
@@ -89,7 +89,7 @@ layout: null
     <img src="images/icons/HTML.JPG">
             <div class="overlay html"></div>
     <img src="images/icons/css.jpg">
-            <div class="overlay css"></div>
+                        <div class="overlay css"></div>
             <hr>
         </div>
 
@@ -112,25 +112,25 @@ layout: null
 
 
     <div class="background3">
-    <h1 class="headline">Projects</h1>
+    <h1 class="headline" id="projects">Projects &darr;</h1>
+
         <div class="project1Image">
-           <img class="project1Image p1" src="images/exa.svg">
-            <div class="overlay" id="project1" onclick="">
-                <h1 class="headline"><span class="headline2">P</span>roject 1</h1>
+            <h1 class="headline"><span class="headline2">P</span>roject 1</h1>
+            <img class="project1Image p1" src="images/exa.svg">
+            <div class="project1">
                 <br>
                 <div class="projectText">
-                    <p>Mit første erhvervsprojekt har jeg udviklet i samarbejde med <a href="http://www.mn-trade.dk/" style="text-decoration: none; color: white ;font-weight: bold">MN-trade</a> som havde brug for et nyt system til at holde styr på sine restordrer.
-                        <br> Til udviklingen gjorde brugte jeg en evolutionær/iterativt UP tilgang og under modelleringsfasen brugte jeg Unified  Modeling Language.
-                        <br> Selve applikationen er skrevet i Java Spring og efterfølgende hosted hos Amazon Web Services, ved hjælp af Amazon Elastic Beanstalk, Amazon Relational Database (som kører MySQL) og tilhørende Firewall.
+                    <p>Mit første erhvervsprojekt har jeg udviklet i samarbejde med <a href="http://www.mn-trade.dk/">MN-trade</a> som havde brug for et nyt system til at holde styr på sine restordrer.
+                        <br> Til udviklingen gjorde brugte jeg en evolutionær/iterativt UP tilgang og under modelleringsfasen brugte jeg Unified  Modeling Language <a href="#">(UML)</a>.
+                        <br> Selve applikationen er skrevet i Java Spring og efterfølgende hosted hos <a> Amazon Web Services </a>, ved hjælp af Amazon Elastic Beanstalk, Amazon Relational Database (som kører MySQL) og tilhørende Firewall.
                     </p>
                 </div>
-
-
             </div>
-           <img class="project1Image p2" src="images/food.svg">
 
-            <div class="overlay" id="project2">
-                <h1 class="headline"><span class="headline2">P</span>roject 2</h1>
+            <h1 class="headline"><span class="headline2">P</span>roject 2</h1>
+            <img class="project1Image p2" src="images/food.svg">
+
+            <div class="project2">
                 <br>
                 <div class="projectText">
                     <p>Dette projekt har jeg udviklet efter, at have besøgt mange forskellige sider for opskrifter og brugt apps som Pinterest, som alle bruger keywords og tags til at foreslå opskrifter.<br>

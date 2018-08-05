@@ -46,9 +46,9 @@
     width: 100%;
     height: 40px;
     background-color: black;
-    -moz-box-shadow: 2px 3px 1px 2px white;
-    -webkit-box-shadow: 2px 3px 1px 2px white;
-    box-shadow: 3px 3px 1px 2px white;
+    -moz-box-shadow: 2px 3px 1px 2px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.28);
+    box-shadow: 3px 3px 1px 2px rgba(0, 0, 0, 0.28);
     position: fixed;
     z-index: 1;
     left: 0;
@@ -85,10 +85,10 @@
     justify-content: center;
     text-align: center;
 
-    width: 100%;
+    width: 400px;
     height: 70vh;
     background: url("https://images.pexels.com/photos/572780/pexels-photo-572780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat fixed center;
-    background-size: cover;
+    background-size: 400px;
 
 }
 
@@ -103,7 +103,12 @@
 
 /*Bio Text Drop Down*/
 
-.biotext p, .background p{
+#catchphrase{
+    font-family: "Karla";
+    font-style: italic;
+}
+
+.biotext p, .background p, .projectText p{
     text-align: center;
     font-family: "Helvetica", serif;
     font-size: 0.6em;
@@ -215,14 +220,17 @@ hr {
 /*Background 3*/
 
 .background3{
-    padding-top: 3%;
+
     background: #b7a56c center;
     background-size: cover;
-    z-index: 1;
-    height: 115vh;
+    height: auto;
 }
 
-
+#projects{
+    margin-top: 8%;
+    justify-content: center;
+    text-align: center;
+}
 
 /*Main Projects - Project 1*/
 
@@ -231,98 +239,73 @@ hr {
     overflow-x: hidden;
     position:relative;
     height: auto;
-    z-index: 0;
+    background: #b7a56c center;
+    background-size: cover;
+
+}
+
+
+.project1Image h1{
+    font-family: "Karla";
+    /*text-shadow: 2px 1px 0 rgba(255, 255, 255, 0.99);*/
+    text-shadow: 0 0 0 ;
+    color: #ffffff;
+    margin-left: 3%;
+    text-align: left;
 }
 
 
 .project1Image img{
-    width: 49%;
+    width: 400px;
     max-width: 100%;
     overflow-x: hidden;
-    height: 400px;
-    display: inline;
-    -webkit-transition-duration: 1s;
-    -moz-transition-duration: 1s;
-    -o-transition-duration: 1s;
-    transition-duration: 1s;
-    -webkit-transition-property: -webkit-transform;
-    -moz-transition-property: -moz-transform;
-    -o-transition-property: -o-transform;
-    transition-property: transform;
-    outline: 0;
-    z-index: 0;
+    height: auto;
+    display: block;
+    -moz-box-shadow: 2px 3px 1px 2px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.28);
+    box-shadow: 3px 3px 1px 2px rgba(0, 0, 0, 0.28);
+
+
+    /*-webkit-transition-duration: 1s;*/
+    /*-moz-transition-duration: 1s;*/
+    /*-o-transition-duration: 1s;*/
+    /*transition-duration: 1s;*/
+    /*-webkit-transition-property: -webkit-transform;*/
+    /*-moz-transition-property: -moz-transform;*/
+    /*-o-transition-property: -o-transform;*/
+    /*transition-property: transform;*/
+
 }
+
+
+.project1{
+    margin-bottom: 5%;
+}
+
+.project1, .project2{
+    background-color: #6c7eb7;
+    padding: 5%;
+    width: 100%;
+}
+
+
+.projectText a{
+    color: #ff2700;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
 
 /*Image Hover Details*/
 
 
-.p1:hover{
-    -webkit-transform:scaleX(3);
-    -moz-transform: scaleX(3);
-    -ms-transform: scaleX(3);
-    -o-transform: scaleX(3);
-    transform: scaleX(3);
-    margin-left: 2%;
-}
-
-.p2:hover{
-    -webkit-transform:scaleX(3);
-    -moz-transform: scaleX(3);
-    -ms-transform: scaleX(3);
-    -o-transform: scaleX(3);
-    transform: scaleX(3);
-}
-
-.p1:hover ~.p2{
-    -webkit-transition-duration: 1s;
-    -moz-transition-duration: 1s;
-    -o-transition-duration: 1s;
-    transition-duration: 1s;
-    width: 0;
-    height: 0;
-}
-
-.p2:hover + .p1{
-    -webkit-transition-duration: 1s;
-    -moz-transition-duration: 1s;
-    -o-transition-duration: 1s;
-    transition-duration: 1s;
-    width: 0;
-    height: 0;
-}
 
 
-.p1:hover ~ #project1{
-    visibility: visible;
-    display: block;
-    position:relative;
-}
-
-#project1{
-    height: 300px;
-}
-
-#project1:hover{
-    display:none;
-    visibility: hidden;
-}
-
-/*P2 */
-
-#project2{
-    height: 300px;
-}
 
 
-.p2:hover ~ #project2{
-    visibility: visible;
-    display: block;
-    position:relative;
-}
 
-.p2:hover ~ .background3{
-    height: 120vh;
-}
+
+
 
 
 .footerContact{
