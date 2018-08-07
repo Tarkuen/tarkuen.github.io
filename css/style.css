@@ -56,8 +56,13 @@
 }
 
 .navbar img{
-    padding-left: 30%;
+    padding-left: 15%;
+    height: auto;
+    width: 25%;
+    z-index: 1;
+
 }
+
 
 /*Headlines*/
 
@@ -85,10 +90,13 @@
     justify-content: center;
     text-align: center;
 
-    width: 400px;
-    height: 70vh;
-    background: url("https://images.pexels.com/photos/572780/pexels-photo-572780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat fixed center;
-    background-size: 400px;
+    width:100%;
+    height: 80vh;
+      background-image: url("landingPage.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 
 }
 
@@ -174,6 +182,12 @@ hr {
     background-size: cover;
 }
 
+.background2 h1{
+
+    padding: 5%;
+    text-align: center;
+}
+
 /*Skills - Object Oriented*/
 
 
@@ -245,13 +259,18 @@ hr {
 }
 
 
-.project1Image h1{
-    font-family: "Karla";
-    /*text-shadow: 2px 1px 0 rgba(255, 255, 255, 0.99);*/
-    text-shadow: 0 0 0 ;
-    color: #ffffff;
-    margin-left: 3%;
-    text-align: left;
+.projectHeadline{
+    font-family: "Karla", sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
 }
 
 
@@ -334,15 +353,25 @@ hr {
     margin-left: 35%;
 }
 
+.beforeScroll{
+    visibility: hidden;
+}
+
+.afterScroll{
+    visibility: visible;
+    transform: translateY(400px);
+    animation: come-in 0.8s ease forwards;
+}
 
 
 
+.come-in:nth-child(odd) {
+    animation-duration: 0.9s; /* So they look staggered */
+}
 
-
-
-
-
-
+@keyframes come-in {
+    to { transform: translateY(0); }
+}
 
 
 

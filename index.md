@@ -13,15 +13,27 @@ layout: null
     <link rel='stylesheet' href='css/style.css'/>
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
 
+    <script src="js/jquery-3.3.1.min.js" rel="script"></script>
+    <script rel="script" src="js/main.js"></script>
+    <script>
+    hello();
+    hello2();
+    </script>
 
 </head>
 <body>
 
+
+
 <div class='page'>
 
     <div class="navbar">
-        <!--<a href="#bio" id="icon1"><img src="ressources/Icons/person-icon-260nw-282598823.jpg.png" ></a><a href="#skills"  id="icon2"> <img src="ressources/Icons/skills.png"></a> <a href="#project" id="icon3"><img src="ressources/Icons/project.png" ></a>-->
+        <a href="" onclick="pageHeightChecker('bio')"><img src="images/icons/navbar/person.png"></a>
+        <a href="" onclick="pageHeightChecker('skills')"><img src="images/icons/navbar/skills.png"></a>
+        <a href="" onclick="pageHeightChecker('projects')"><img src="images/icons/navbar/project.png"></a>
+
     </div>
+
     <div class="landingPage">
 
         <h1 class="headline">Victor Adam Ott Frank </h1>
@@ -29,7 +41,7 @@ layout: null
 
     </div>
 
-    <div class="bio" id="bio">
+    <div class="afterScroll bio" id="bio">
 
         <div class="biotext">
 
@@ -44,8 +56,9 @@ layout: null
             <br>
             <br>
             <p>
-                Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. Lorem Ipsum har ikke alene overlevet fem århundreder,
-
+               Jeg er 24 år, læser en erhvervsakademisk uddannelse som datamatiker og bor I Ølstykke med min kæreste. Jeg er analytisk skarp, nysgerrig og bestemt ikke bange for en udfordring. Derudover er jeg imødekommende og altid mødestabil. 
+ <br>
+Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at specialisere mig videre til bachelor niveau i IT-sikkerhed,  da det er her, min interesse især ligger.
             </p>
 
 
@@ -78,17 +91,17 @@ layout: null
 
 
 
-    <div class="background2">
+    <div class=" background2">
 
-        <div class="objektorienteret">
-        <h1 class="headline">Primære Sprog</h1>
+        <div class="beforeScroll objektorienteret" id="skills" >
+            <h1 class="headline">Foretrukne Sprog</h1>
     <img src="images/icons/java.png">
             <div class="overlay java"></div>
     <img src="images/icons/MySql.png">
             <div class="overlay mysql"></div>
-    <img src="images/icons/HTML.JPG">
+    <img src="images/icons/HTML.JPG" >
             <div class="overlay html"></div>
-    <img src="images/icons/css.jpg">
+    <img src="images/icons/css.jpg" >
                         <div class="overlay css"></div>
             <hr>
         </div>
@@ -112,10 +125,11 @@ layout: null
 
 
     <div class="background3">
-    <h1 class="headline" id="projects">Projects &darr;</h1>
 
-        <div class="project1Image">
-            <h1 class="headline"><span class="headline2">P</span>roject 1</h1>
+
+        <div class="beforeScroll project1Image" id="projects">
+            <h1 class="headline" >Projects &darr;</h1>
+            <h1 class="projectHeadline"><span class="headline2">P</span>roject 1</h1>
             <img class="project1Image p1" src="images/exa.svg">
             <div class="project1">
                 <br>
@@ -127,7 +141,7 @@ layout: null
                 </div>
             </div>
 
-            <h1 class="headline"><span class="headline2">P</span>roject 2</h1>
+            <h1 class="projectHeadline"><span class="headline2">P</span>roject 2</h1>
             <img class="project1Image p2" src="images/food.svg">
 
             <div class="project2">
@@ -143,11 +157,12 @@ layout: null
         </div>
     </div>
 
-    <div class="footerContact">
+    <div class="footerContact" >
         <h3>Victor Adam Ott Frank</h3><h3>VictorOttFrank@yahoo.com</h3><h3>+45 25305919</h3>
     </div>
 
 </div>
+
 
 
 </body>
