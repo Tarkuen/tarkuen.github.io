@@ -97,6 +97,7 @@
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+	background-size: cover; -ms-background-size: cover; -o-background-size: cover; -moz-background-size: cover; -webkit-background-size: cover;
 
 }
 
@@ -309,7 +310,7 @@ hr {
 
 
 .projectText a{
-    color: #ff2700;
+    color: #fff87f;
     text-decoration: none;
     font-weight: bolder;
 }
