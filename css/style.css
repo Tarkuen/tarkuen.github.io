@@ -60,7 +60,7 @@
 }
 
 .navbar h2{
-    padding: 12%;
+    padding: 6%;
     height: auto;
     width: 25%;
     z-index: 1;
@@ -69,10 +69,6 @@
     color: white;
     font-style: oblique;
     display: inline;
-}
-
-.navbar h2:first-child{
-    padding-left: 5%;
 }
 
 
