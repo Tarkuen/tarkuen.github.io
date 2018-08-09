@@ -6,38 +6,37 @@ layout: null
 ---
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name='viewport'
-          content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <title>Title</title>
-    <link rel='stylesheet' href='css/style.css'/>
-    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet" />
 
     <script src="js/jquery-3.3.1.min.js" rel="script"></script>
     <script rel="script" src="js/main.js"></script>
     <script>
     hello();
     hello2();
+
     </script>
 
 </head>
 <body>
 
 
-
-<div class='page'>
+<div class="page">
 
     <div class="navbar">
-        <a href="" onclick="pageHeightChecker('bio')"><img src="images/icons/navbar/person.png"></a>
-        <a href="" onclick="pageHeightChecker('skills')"><img src="images/icons/navbar/skills.png"></a>
-        <a href="" onclick="pageHeightChecker('projects')"><img src="images/icons/navbar/project.png"></a>
+        <a href="" onclick="pageHeightChecker('bio')"><h2>About</h2></a>
+        <a href="" onclick="pageHeightChecker('skills')"><h2>Skills</h2></a>
+        <a href="" onclick="pageHeightChecker('projects')"><h2>Projects</h2></a>
 
     </div>
 
     <div class="landingPage">
 
         <h1 class="headline">Victor Adam Ott Frank </h1>
-        <h2 class="headline">Object Oriented Development <br> and Web</h2>
+        <h2 class="headline">Object Oriented Development <br /> and Web</h2>
 
     </div>
 
@@ -48,16 +47,16 @@ layout: null
             <h2 class="headline">Hvem er jeg?</h2>
 
             <p id="catchphrase">Release Early - Release Often
-            <br>
-            <br>
+            <br />
+            <br />
             </p>
-            <hr>
+            <hr />
 
-            <br>
-            <br>
+            <br />
+            <br />
             <p>
                Jeg er 24 år, læser en erhvervsakademisk uddannelse som datamatiker og bor I Ølstykke med min kæreste. Jeg er analytisk skarp, nysgerrig og bestemt ikke bange for en udfordring. Derudover er jeg imødekommende og altid mødestabil. 
- <br>
+ <br />
 Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at specialisere mig videre til bachelor niveau i IT-sikkerhed,  da det er her, min interesse især ligger.
             </p>
 
@@ -69,41 +68,79 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
 
         <h3 class="headline">FACTS</h3>
         <p>
-            Victor Adam Ott Frank <br>
-            24 år <br>
-            Datamatiker AK<br>
+            Victor Adam Ott Frank <br />
+            24 år <br />
+            Datamatiker AK<br />
         </p>
     </div>
 
     <div class="work">
         <h3 class="headline">Erfaring</h3>
-        <p> 1. Assistent | Sep 2014 -  | v. Netto
-            Nøglebærer, primært lukkevagter. Overblik, struktur i arbejdsgangene og lokal ledelse af aftenhold.
-            <br>
-            <br>Lageransvarlig | 2015 | v. Aldo
-            Lageransvarlig v. Aldo i Rødovre. Optælling, opsætning og kontrol af varer.
-        </p><hr><p>
-        <br>IT-medhjælper | Feb. 2017 -  | Spunk Bar ApS.
-        Ad-hoc opgaver, samt opsætning af Mobilepay Buisness.
-        <br>
-        <br>Java Udvikler | April 2018 | Morten Nørgaard Trade  Udviklet en Java Spring MVC applikation, en oversigt over restordrer, med tilhørende GUI og en lokal database server.</p>
+
+        <ul class="experience elist">
+            <li id="job1">1.Assistent
+            <div class="experience ediv" id="job1div">
+                <br />
+                <p> 1. Assistent | Sep 2014 -  | v. Netto<br />
+                    Nøglebærer, primært lukkevagter. Overblik, struktur i arbejdsgangene og lokal ledelse af aftenhold.
+                    <br />
+                </p>
+            </div>
+            </li>
+
+            <li id="job2">Lageransvarlig
+            <div class="experience ediv" id="job2div">
+                <br />
+                <p> Lageransvarlig | 2015 | v. Aldo<br />
+                    Lageransvarlig v. Aldo i Rødovre. Optælling, opsætning og kontrol af varer.
+                </p>
+            </div>
+            </li>
+
+            <li id="job3">IT-Assistent
+            <div class="experience ediv" id="job3div">
+                <br />
+                <p>
+                IT-Assistent | Feb. 2017 -  | Bent Anthony ApS.<br />
+                Ad-hoc opgaver, samt opsætning af Mobilepay Buisness.
+
+                </p>
+            </div>
+            </li>
+            <li id="job4">Java Udvikler
+                <div class="experience ediv" id="job4div">
+                    <br />
+                    <p>
+                    Java Udvikler | April 2018 | Mogens Nørgaard Trade <br />
+                    Udviklet en Java Spring MVC applikation, en oversigt over restordrer, med tilhørende GUI og en lokal database server.
+                    </p>
+
+                </div>
+            </li>
+        </ul>
+
+
+            <br />
+            <br /><hr />
+        <br />
+        <br />
     </div>
 
 
 
     <div class=" background2">
 
-        <div class="beforeScroll objektorienteret" id="skills" >
+        <div class="beforeScroll objektorienteret" id="skills">
             <h1 class="headline">Foretrukne Sprog</h1>
-    <img src="images/icons/java.png">
+    <img src="images/icons/java.png" />
             <div class="overlay java"></div>
-    <img src="images/icons/MySql.png">
+    <img src="images/icons/MySql.png" />
             <div class="overlay mysql"></div>
-    <img src="images/icons/HTML.JPG" >
+    <img src="images/icons/HTML.JPG" />
             <div class="overlay html"></div>
-    <img src="images/icons/css.jpg" >
+    <img src="images/icons/css.jpg" />
                         <div class="overlay css"></div>
-            <hr>
+            <hr />
         </div>
 
 
@@ -113,9 +150,9 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
 
 
         <div class="sideProj images">
-        <img src="images/icons/sitecore.jpg">
-        <img src="images/icons/SAS.jpg">
-        <img src="images/icons/wordpress.png">
+        <img src="images/icons/sitecore.jpg" />
+        <img src="images/icons/SAS.jpg" />
+        <img src="images/icons/wordpress.png" />
 
 
         </div>
@@ -128,42 +165,45 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
 
 
         <div class="beforeScroll project1Image" id="projects">
-            <h1 class="headline" >Projects &darr;</h1>
+            <h1 class="headline">Projects &darr;</h1>
             <h1 class="projectHeadline"><span class="headline2">P</span>roject 1</h1>
-            <img class="project1Image p1" src="images/exa.svg">
+            <img class="project1Image p1" src="images/exa.svg" />
             <div class="project1">
-                <br>
+                <br />
                 <div class="projectText">
                     <p>Mit første erhvervsprojekt har jeg udviklet i samarbejde med <a href="http://www.mn-trade.dk/">MN-trade</a> som havde brug for et nyt system til at holde styr på sine restordrer.
-                        <br> Til udviklingen gjorde brugte jeg en evolutionær/iterativt UP tilgang og under modelleringsfasen brugte jeg Unified  Modeling Language <a href="#">(UML)</a>.
-                        <br> Selve applikationen er skrevet i Java Spring og efterfølgende hosted hos <a> Amazon Web Services </a>, ved hjælp af Amazon Elastic Beanstalk, Amazon Relational Database (som kører MySQL) og tilhørende Firewall.
+                        <br /> Til udviklingen gjorde jeg brug af en evolutionær/iterativt UP tilgang og under modelleringsfasen brugte jeg Unified  Modeling Language <a href="#">(UML)</a>.
+                        <br /> Selve applikationen er skrevet i Java Spring og efterfølgende hosted hos <a> Amazon Web Services </a>, ved hjælp af Amazon Elastic Beanstalk, Amazon Relational Database (som kører MySQL) og tilhørende Firewall.
                     </p>
                 </div>
             </div>
 
             <h1 class="projectHeadline"><span class="headline2">P</span>roject 2</h1>
-            <img class="project1Image p2" src="images/food.svg">
+            <img class="project1Image p2" src="images/food.svg" />
 
             <div class="project2">
-                <br>
+                <br />
                 <div class="projectText">
-                    <p>Dette projekt har jeg udviklet efter, at have besøgt mange forskellige sider for opskrifter og brugt apps som Pinterest, som alle bruger keywords og tags til at foreslå opskrifter.<br>
-                        Denne hjemmeside med tilhørende database, forsøgte istedet at gøre det muligt at søge i kategorier som er langt bredere.
-                        <br> Dette var med henblik på at gøre det nemmere og mere overskueligt at søge i forskellige køkkener, kød eller ej, og tid til tilberedelse.
-                        <br> Selve applikationen er skrevet i Java Spring og efterfølgende hosted hos Amazon Web Services, ved hjælp af Amazon Elastic Beanstalk, Amazon Relational Database (som kører MySQL) og tilhørende Firewall.
+                    <p>Dette projekt har jeg udviklet efter, at have besøgt mange forskellige sider for opskrifter og brugt apps som Pinterest. Til fælles har disse sider og applikationer at de alle bruger enkle keywords og tags til at beskrive opskrifterne.<br />
+                        Derfor udviklede jeg denne application med tilhørende hjemmeside og database, hvilket gøre det muligt at søge i kategorier som er langt bredere end enkle keywords.
+                        <br /> Dette var med henblik på at gøre det nemmere og mere overskueligt at søge i forskellige køkkener, samt se forberedelsestid og vælge sin primære ingrediens (alt fra gris til vegetarisk).
+                        <br /> Selve applikationen er skrevet i Java Spring og efterfølgende hosted hos Amazon Web Services, ved hjælp af Amazon Elastic Beanstalk, Amazon Relational Database (som kører MySQL) og tilhørende Firewall.
                     </p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="footerContact" >
+    <div class="footerContact">
         <h3>Victor Adam Ott Frank</h3><h3>VictorOttFrank@yahoo.com</h3><h3>+45 25305919</h3>
     </div>
 
 </div>
 
 
+<script>
+    click('job');
+</script>
 
 </body>
 </html>

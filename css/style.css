@@ -55,12 +55,24 @@
     top: 0;
 }
 
-.navbar img{
-    padding-left: 15%;
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar h2{
+    padding: 12%;
     height: auto;
     width: 25%;
     z-index: 1;
+    font-size: 1.2em;
+    font-family: "Karla", sans-serif;
+    color: white;
+    font-style: oblique;
+    display: inline;
+}
 
+.navbar h2:first-child{
+    padding-left: 5%;
 }
 
 
@@ -92,11 +104,14 @@
 
     width:100%;
     height: 80vh;
-      background-image: url("landingPage.jpeg");
+    background-image: url("landingPage.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100% 70vh;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
 
 }
 
@@ -112,14 +127,20 @@
 /*Bio Text Drop Down*/
 
 #catchphrase{
-    font-family: "Karla";
+    font-family: "Karla", sans-serif;
     font-style: italic;
+    padding: 0;
+    padding-top: 5%;
 }
 
 .biotext p, .background p, .projectText p{
     text-align: center;
     font-family: "Helvetica", serif;
-    font-size: 0.6em;
+    font-size: 0.8em;
+    padding-top: 0;
+    padding-bottom: 7%;
+    padding-left: 7%;
+    padding-right: 7%;
     color: white;
     letter-spacing: 2px;
     word-spacing: 5px;
@@ -130,16 +151,18 @@
 /*Biography, Background, Work */
 
 .bio{
-    border-bottom: 2px dotted #ff6600;
+
 }
+
 
 /*All Backgrounds*/
 
-.bio, .background, .work{
+.bio, .background{
     color: white;
-    background: #003333 center;
+    background: #000000 center;
     background-size: cover;
-    padding: 20px;
+    border-bottom: 2px dotted #ff6600;
+
 }
 
 .bio img{
@@ -149,10 +172,13 @@
 
 .biotext h2{
     margin-left: 17px;
+    padding-top: 20px;
 }
 
 hr {
     border: 1px solid white;
+    width: 85%;
+    margin-left: 7%;
 }
 
 
@@ -164,15 +190,78 @@ hr {
 
 .background h3{
     padding-left: 1%;
+    color: black;
+    text-shadow:0 0 0 rgb(0, 0, 0);
 }
 
 .background{
-    text-shadow: 2px 1.5px 0 rgb(0, 0, 0);
+    background: white;
+    padding: 30px;
+    /*background-image: url("12.jpeg");*/
+    /*background-size: 10%*/
+}
+
+.background p{
+    color: black;
+    font-family: "Oxygen", sans-serif;
+    font-size: 1em;
 }
 
 .work{
     border-bottom: 2px solid #ff6600;
+    color: white;
+    background: #000000 center;
+    background-size: cover;
+    padding: 20px;
+
 }
+
+/*Experience List */
+
+.experience{
+
+}
+
+
+.elist{
+    list-style-type: none;
+    border-left: 0.5px solid white;
+    padding-left: 2%;
+
+}
+
+.ediv, .edivA{
+    padding-bottom: 5%;
+
+}
+
+.ediv p, .edivA p{
+    /*font-style: italic;*/
+    padding: 5%;
+    text-align: right;
+}
+
+.ediv{
+    opacity: 0;
+    -moz-opacity: 0;
+    transition: opacity 1s ease-in-out;
+    font-family: "Oxygen", sans-serif;
+}
+
+.edivA{
+    opacity:1;
+    transition: opacity 0.5s ease;
+    font-family: "Oxygen", sans-serif;
+
+}
+
+
+@keyframes opacity {
+    to { transition: opacity 1s ease-in-out }
+}
+
+
+
 
 
 .background2{
@@ -309,7 +398,7 @@ hr {
 
 
 .projectText a{
-    color: #ff2700;
+    color: #fff87f;
     text-decoration: none;
     font-weight: bolder;
 }
@@ -363,11 +452,6 @@ hr {
     animation: come-in 0.8s ease forwards;
 }
 
-
-
-.come-in:nth-child(odd) {
-    animation-duration: 0.9s; /* So they look staggered */
-}
 
 @keyframes come-in {
     to { transform: translateY(0); }
