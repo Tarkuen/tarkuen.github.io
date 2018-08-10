@@ -46,8 +46,8 @@
     width: 100%;
     height: 20px;
     background-color: black;
-    -moz-box-shadow: 2px 3px 1px 2px rgba(0, 0, 0, 0.28);
-    -webkit-box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.28);
+    -moz-box-shadow: 2px 6px 1px 2px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 2px 6px 1px rgba(0, 0, 0, 0.28);
     box-shadow: 3px 7px 1px 2px rgba(0, 0, 0, 0.28);
     position: fixed;
     z-index: 1;
@@ -60,7 +60,7 @@
 }
 
 .navbar h2{
-    margin: 3%;
+    margin: 1%;
     height: auto;
     width: 100%;
     z-index: 1;
@@ -506,7 +506,7 @@ hr {
 
 .footerContact{
     width: 100%;
-    height: 20vh;
+    height: auto;
     background: rgb(70, 70, 70) center;
 }
 
@@ -549,8 +549,6 @@ hr {
         background-color: rgba(252, 0, 0, 0.56);
     }
 
-
-
 }
 
 /* Tablet Styles */
@@ -559,7 +557,53 @@ hr {
         background-color: green;
     }
 
+    *{
+        font-size: 1.1em;
+    }
 
+    .navbar{
+        height: 45px;
+    }
+    .navbar h2{
+        font-size: 1.1em;
+        margin-left: 7%;
+    }
+
+    .objektorienteretText p{
+        line-height: 35px;
+        font-size: 1.05em;
+    }
+
+    #projectsH1{
+        font-size:2em;
+    }
+
+    .projectHeadline{
+        margin: 5%;
+    }
+
+    .project1Image img{
+        width: 100%;
+        height: auto;
+        -moz-box-shadow: 2px 6px 1px 2px rgba(0, 0, 0, 0.28);
+        -webkit-box-shadow: 2px 6px 1px rgba(0, 0, 0, 0.28);
+        box-shadow: 3px 7px 1px 2px rgba(0, 0, 0, 0.28);
+    }
+
+    .projectText p{
+        line-height: 40px;
+    }
+
+    .footerContact{
+        height: auto;
+    }
+
+    .footerContact h3{
+        font-size: 1em;
+        margin:0;
+
+        padding: 3%;
+    }
 
 }
 
@@ -571,6 +615,137 @@ hr {
         background-color: plum;
     }
 
+    *{
+        font-size:1.5em;
+    }
+
+    .navbar{
+        height: auto;
+    }
+
+    .landingPage h1{
+        text-shadow: 9px 7px 0 rgb(0, 0, 0);
+    }
+
+    .landingPage{
+        height: 60vh;
+    }
+
+
+    .landingPage h2{
+        margin-top: 2%;
+        line-height:100%;
+        text-shadow: 9px 7px 0 rgb(0, 0, 0);
+    }
+
+    .navbar h2{
+        margin-left: 10%;
+
+    }
+
+
+    .background, .bio{
+        width: 50%;
+        display: inline-block;
+    }
+
+    .background{
+        padding: 0;
+    }
+
+    .bio h2, .background h3{
+        text-align: center;
+        padding-top: 7%;
+        padding-bottom: 5%;
+        font-size: 1.3em;
+    }
+
+    #catchphrase{
+        margin-bottom: 1%;
+        font-size: 0.6em;
+    }
+
+    .biotext hr{
+        border: 1px solid white;
+        width: 85%;
+        margin-left: 7%;
+        margin-top: 6%;
+    }
+
+    .biotext p{
+        line-height: 140px;
+        font-size: 0.5em;
+        margin: 0;
+        padding-bottom: 15%;
+    }
+
+    .background{
+        border-bottom: 5px solid #008fff;
+    }
+
+    .background p{
+        line-height: 100px;
+    }
+
+    .work{
+        padding: 10%;
+        padding-bottom: 2%;
+    }
+
+    .work h3{
+        font-size: 1.5em;
+        padding-bottom: 10%;
+        text-align: center;
+    }
+
+    .experience h5{
+        font-size: 1em;
+    }
+
+    .experience p {
+        padding-top: 1%;
+        font-size: 0.3em;
+    }
+
+    .edivA{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 1%;
+    }
+
+    .objektorienteretImages img{
+        margin: 0;
+    }
+
+    .objektorienteretText p{
+        line-height: 150px;
+    }
+
+    .projectHeadline{
+        text-align: left;
+    }
+    .project1Image img{
+        width: 100%;
+        height: auto;
+        -moz-box-shadow: 9px 30px 9px 2px rgba(0, 0, 0, 0.28);
+        -webkit-box-shadow: 9px 30px 9px 2px rgba(0, 0, 0, 0.28);
+        box-shadow: 9px 30px 9px 2px rgba(0, 0, 0, 0.28);
+    }
+
+    .project1 p, .project2 p{
+        line-height: 150px;
+        font-size: 0.3em;
+        margin: 10%;
+    }
+
+    .footerContact{
+        height: 20vh;
+        font-size: 1em;
+    }
+
+    .footerContact h3{
+        font-size: 1.5em;
+    }
 
 }
 

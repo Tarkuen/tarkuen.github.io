@@ -21,10 +21,10 @@ layout: null
 <div class="page">
 
     <div class="navbar">
-        <a href="" onclick="pageHeightChecker('bio')"><h2>About</h2></a>
-        <a href="" onclick="pageHeightChecker('skills')"><h2>Skills</h2></a>
-        <a href="" onclick="pageHeightChecker('projects')"><h2>Projects</h2></a>
-        <a href="" onclick="pageHeightChecker('contact')"><h2>Contact</h2></a>
+        <a href="" onclick="pageHeightChecker('bio')"><h2>Bio</h2></a>
+        <a href="" onclick="pageHeightChecker('skills')"><h2>Kompetencer</h2></a>
+        <a href="" onclick="pageHeightChecker('projects')"><h2>Projekter</h2></a>
+        <a href="" onclick="pageHeightChecker('contact')"><h2>Kontakt</h2></a>
 
     </div>
 
@@ -42,13 +42,12 @@ layout: null
             <h2 class="headline">Hvem er jeg?</h2>
 
             <p id="catchphrase">Release Early - Release Often
-            <br />
-            <br />
+            <br>
+            <br>
             </p>
             <hr />
-
             <br />
-            <br />
+            <!--<br />-->
             <p>
                Jeg er 24 år, læser en erhvervsakademisk uddannelse som datamatiker og bor I Ølstykke med min kæreste. Jeg er analytisk skarp, nysgerrig og bestemt ikke bange for en udfordring. Derudover er jeg imødekommende og altid mødestabil. 
  <br />
@@ -75,7 +74,7 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
         <ul class="experience elist">
             <li id="job1"><h5 id="job1H">1.Assistent</h5>
             <div class="experience ediv" id="job1div">
-                <br />
+
                 <p> 1. Assistent | Sep 2014 -  | v. Netto<br />
                     Nøglebærer, primært lukkevagter. Overblik, struktur i arbejdsgangene og lokal ledelse af aftenhold.
                     <br />
@@ -85,7 +84,7 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
 
             <li id="job2"><h5 id="job2H">Lageransvarlig</h5>
             <div class="experience ediv" id="job2div">
-                <br />
+
                 <p> Lageransvarlig | 2015 | v. Aldo<br />
                     Lageransvarlig v. Aldo i Rødovre. Optælling, opsætning og kontrol af varer.
                 </p>
@@ -94,7 +93,6 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
 
             <li id="job3"><h5 id="job3H">IT-Assistent</h5>
             <div class="experience ediv" id="job3div">
-                <br />
                 <p>
                 IT-Assistent | Feb. 2017 -  | Bent Anthony ApS.<br />
                 Ad-hoc opgaver, samt opsætning af Mobilepay Buisness.
@@ -104,7 +102,6 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
             </li>
             <li id="job4"> <h5 id="job4H">Java Udvikler</h5>
                 <div class="experience ediv" id="job4div">
-                    <br />
                     <p>
                     Java Udvikler | April 2018 | Mogens Nørgaard Trade <br />
                     Udviklet en Java Spring MVC applikation, en oversigt over restordrer, med tilhørende GUI og en lokal database server.
@@ -129,23 +126,23 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
             <h1 class="headline">Foretrukne Sprog</h1>
             <div class="objektorienteretText">
                 <!--Overordnet Development-->
-                <p>Jeg er specialiseret i <a>objektorienteret programmering og design</a> og jeg arbejder enten <a>Agile eller Iterativt </a> afhængig af opgaven.<br>
+                <p>Jeg er specialiseret i <a>objektorienteret programmering og design</a> og jeg arbejder enten <a>Agile eller Iterativt </a> afhængig af opgaven.<br />
                     Mine design tager udgangspunkt i den <a> individuelle kunde</a>, deres behov og deres kunder.
-                    <br><br>
+                    <br /><br />
                     <!--Partikulære sprog-->
-                    I kraft af min uddannelse arbejder jeg med OOD, men det føles også intuitivt for mig som en sprogligt anlagt person.<br>
+                    I kraft af min uddannelse arbejder jeg med OOD, men det føles også intuitivt for mig som en sprogligt anlagt person.<br />
                     I forbindelse med min uddannelse har jeg erfaring med <a>Java</a> som backend technology, men jeg har også undersøgt Javas
                     front end technology alternativer som: <a>Java Swing, JavaFX, Java Spring og Japplet</a>.
-                    <br><br>
-                    På datasiden af applikationen har jeg erfaring med <a>MySQL</a>, både OO og dokumentbaseret vha. <a>X-Plugin</a>.<br>
+                    <br /><br />
+                    På datasiden af applikationen har jeg erfaring med <a>MySQL</a>, både OO og dokumentbaseret vha. <a>X-Plugin</a>.<br />
                     Desuden er jeg stærk i de objektorienterede sprog <a>HTML, JavaSript og CSS</a>.
-                    <br><br>
+                    <br /><br />
                     <!--Overordnet Design-->
 
-                    <br>
+                    <br />
                 </p>
             </div>
-            <div class ="objektorienteretImages">
+            <div class="objektorienteretImages">
     <img src="images/icons/java.png" />
 
     <img src="images/icons/MySql.png" />
@@ -198,9 +195,9 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
                 <br />
                 <div class="projectText">
                     <p>Dette projekt har jeg udviklet efter, at have besøgt mange forskellige sider for opskrifter og brugt apps som Pinterest. Til fælles har disse sider og applikationer at de alle bruger enkle keywords og tags til at beskrive opskrifterne.<br />
-                        Derfor udviklede jeg denne application med tilhørende hjemmeside og database, hvilket gøre det muligt at søge i kategorier som er langt bredere end enkle keywords.
+                        Derfor udviklede jeg denne <a>application med tilhørende hjemmeside og database</a>, hvilket gøre det muligt at søge i kategorier som er langt bredere end enkle keywords.
                         <br /> Dette var med henblik på at gøre det nemmere og mere overskueligt at søge i forskellige køkkener, samt se forberedelsestid og vælge sin primære ingrediens (alt fra gris til vegetarisk).
-                        <br /> Selve applikationen er skrevet i Java Spring og efterfølgende hosted hos Amazon Web Services, ved hjælp af Amazon Elastic Beanstalk, Amazon Relational Database (som kører MySQL) og tilhørende Firewall.
+                        <br /> Selve applikationen er skrevet i <a>Java Spring</a> og efterfølgende hosted hos <a>Amazon Web Services</a>, ved hjælp af <a>Amazon Elastic Beanstalk, Amazon Relational Database</a> (som kører MySQL) og tilhørende Firewall.
                     </p>
                 </div>
             </div>
@@ -208,7 +205,7 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
     </div>
 
     <div class="footerContact" id="contact">
-        <h3>Victor Adam Ott Frank<br></h3><h3>VictorOttFrank@yahoo.com<br></h3><h3>+45 25305919<br></h3>
+        <h3>Victor Adam Ott Frank<br /></h3><h3>VictorOttFrank@yahoo.com<br /></h3><h3>+45 25305919<br /></h3>
     </div>
 
 </div>
