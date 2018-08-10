@@ -44,11 +44,11 @@
 
 .navbar{
     width: 100%;
-    height: 40px;
+    height: 20px;
     background-color: black;
     -moz-box-shadow: 2px 3px 1px 2px rgba(0, 0, 0, 0.28);
     -webkit-box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.28);
-    box-shadow: 3px 3px 1px 2px rgba(0, 0, 0, 0.28);
+    box-shadow: 3px 7px 1px 2px rgba(0, 0, 0, 0.28);
     position: fixed;
     z-index: 1;
     left: 0;
@@ -60,11 +60,11 @@
 }
 
 .navbar h2{
-    padding: 6%;
+    margin: 3%;
     height: auto;
-    width: 25%;
+    width: 100%;
     z-index: 1;
-    font-size: 1.2em;
+    font-size: 0.9em;
     font-family: "Karla", sans-serif;
     color: white;
     font-style: oblique;
@@ -192,7 +192,9 @@ hr {
 
 .background{
     background: white;
-    padding: 30px;
+    padding: 1%;
+    padding-top: 7%;
+    padding-bottom: 7%;
     /*background-image: url("12.jpeg");*/
     /*background-size: 10%*/
 }
@@ -214,9 +216,29 @@ hr {
 
 /*Experience List */
 
-.experience{
-
+#job1 h5, #job2 h5, #job3 h5, #job4 h5{
+    background-color: white;
+    width: 40%;
+    color: black;
 }
+
+#job1 h5{
+    width: 30%;
+}
+
+#job2 h5{
+    width: 45%;
+}
+
+#job3 h5{
+    width: 35%;
+}
+
+#job4 h5{
+    width: 40%;
+}
+
+
 
 
 .elist{
@@ -263,7 +285,7 @@ hr {
 .background2{
     /*width: 100%;*/
     /*height:inherit;*/
-    background: #323e53 center;
+    background: #ffffff center;
     background-size: cover;
 }
 
@@ -280,15 +302,56 @@ hr {
     color: white;
     width: 100%;
     margin-top: 5%;
-    padding: 5%;
+    padding: 3%;
 
 }
 
+.objektorienteret h1{
+    color: black;
+    text-shadow: 0 0 0;
+}
 
-.objektorienteret img{
-    width: 47%;
+.objektorienteretText{
+    float:right;
+    width: 75%;
+    overflow-wrap: break-word;
+}
+
+.objektorienteretText a{
+    font-weight: bold;
+}
+
+.objektorienteretText p{
+    border-left: 1px solid black;
+    color: #000000;
+    font-family: "Oxygen", sans-serif;
+    text-align: left;
+    font-size: 0.7em;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    line-height: 15px;
+    padding-left: 7%;
+    margin-left: 5%;
+}
+
+.objektorienteretImages{
+    width: 25%;
+    float:left;
+    display: inline-block;
+    vertical-align: middle;
     justify-content: center;
-    margin: 1%;
+}
+
+.objektorienteretImages img{
+    width: 100%;
+    float: left;
+
+    margin-top: 15%;
+    margin-bottom: 25%;
+    padding-top: 15%;
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: center;
 }
 
 .objektorienterettekst p{
@@ -300,19 +363,27 @@ hr {
 
 
 .sideProj{
+    height: auto;
     margin-top: 5%;
-    margin-bottom: 10%;
+    padding-bottom: 2%;
+    background-color: black;
 }
 
 .sideProj h1{
     padding-left: 5%;
     font-size: 1.2em;
+    color: #ffffff;
+    text-shadow: 0 0 0 ;
 }
 
-.sideProj img{
-    width: 30%;
+.imagess{
+    width:100%;
     height: 100px;
     margin: 1%;
+}
+.sideProj img{
+    width: 32%;
+    height: auto;
 }
 
 
@@ -320,15 +391,30 @@ hr {
 
 .background3{
 
-    background: #b7a56c center;
+    background: #ffffff center;
     background-size: cover;
     height: auto;
 }
 
 #projects{
-    margin-top: 8%;
     justify-content: center;
     text-align: center;
+
+}
+
+#projectsH1{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-top: 0;
+    padding-bottom: 5%;
+    padding-top: 15%;
+    color: #ffffff;
+    text-shadow: 0 0 0;
+    background-color: #6c7eb7;
+    -moz-box-shadow: 2px 3px 1px 2px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.28);
+    box-shadow: 3px 3px 1px 2px rgba(0, 0, 0, 0.28);
+
 }
 
 /*Main Projects - Project 1*/
@@ -338,17 +424,18 @@ hr {
     overflow-x: hidden;
     position:relative;
     height: auto;
-    background: #b7a56c center;
+    background: #ffffff center;
     background-size: cover;
 
 }
 
 
+
 .projectHeadline{
     font-family: "Karla", sans-serif;
     font-size: 1.5em;
-    color: white;
-    text-shadow: 1px 1px 0 rgb(0, 0, 0);
+    color: #000000;
+    text-shadow: 0 0 0;
     letter-spacing: 2px;
     word-spacing: 5px;
     line-height: 25px;
@@ -384,12 +471,17 @@ hr {
 
 .project1{
     margin-bottom: 5%;
+
 }
 
 .project1, .project2{
     background-color: #6c7eb7;
     padding: 5%;
     width: 100%;
+    -moz-box-shadow: 2px 3px 1px 2px rgba(0, 0, 0, 0.28);
+    -webkit-box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.28);
+    box-shadow: 3px 3px 1px 2px rgba(0, 0, 0, 0.28);
+
 }
 
 
@@ -414,29 +506,23 @@ hr {
 
 .footerContact{
     width: 100%;
-    height: auto;
+    height: 20vh;
     background: rgb(70, 70, 70) center;
 }
 
 .footerContact h3{
-    display: inline-flex;
+    display: block;
     color: white;
-    font-size: 0.5em;
+    font-size: 0.6em;
     letter-spacing: 2px;
     word-spacing: 5px;
-    line-height: 20px;
+    line-height: 40px;
     text-transform: uppercase;
     font-family: "Arial", sans-serif;
-    margin-left: 1%;
+    margin-left: 5%;
 }
 
-.footerContact h3:first-child{
-    margin-right: 10%;
-}
 
-.footerContact h3:nth-child(3){
-    margin-left: 35%;
-}
 
 .beforeScroll{
     visibility: hidden;

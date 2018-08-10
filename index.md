@@ -14,12 +14,6 @@ layout: null
 
     <script src="js/jquery-3.3.1.min.js" rel="script"></script>
     <script rel="script" src="js/main.js"></script>
-    <script>
-    hello();
-    hello2();
-
-    </script>
-
 </head>
 <body>
 
@@ -30,6 +24,7 @@ layout: null
         <a href="" onclick="pageHeightChecker('bio')"><h2>About</h2></a>
         <a href="" onclick="pageHeightChecker('skills')"><h2>Skills</h2></a>
         <a href="" onclick="pageHeightChecker('projects')"><h2>Projects</h2></a>
+        <a href="" onclick="pageHeightChecker('contact')"><h2>Contact</h2></a>
 
     </div>
 
@@ -78,7 +73,7 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
         <h3 class="headline">Erfaring</h3>
 
         <ul class="experience elist">
-            <li id="job1">1.Assistent
+            <li id="job1"><h5 id="job1H">1.Assistent</h5>
             <div class="experience ediv" id="job1div">
                 <br />
                 <p> 1. Assistent | Sep 2014 -  | v. Netto<br />
@@ -88,7 +83,7 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
             </div>
             </li>
 
-            <li id="job2">Lageransvarlig
+            <li id="job2"><h5 id="job2H">Lageransvarlig</h5>
             <div class="experience ediv" id="job2div">
                 <br />
                 <p> Lageransvarlig | 2015 | v. Aldo<br />
@@ -97,7 +92,7 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
             </div>
             </li>
 
-            <li id="job3">IT-Assistent
+            <li id="job3"><h5 id="job3H">IT-Assistent</h5>
             <div class="experience ediv" id="job3div">
                 <br />
                 <p>
@@ -107,7 +102,7 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
                 </p>
             </div>
             </li>
-            <li id="job4">Java Udvikler
+            <li id="job4"> <h5 id="job4H">Java Udvikler</h5>
                 <div class="experience ediv" id="job4div">
                     <br />
                     <p>
@@ -132,28 +127,46 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
 
         <div class="beforeScroll objektorienteret" id="skills">
             <h1 class="headline">Foretrukne Sprog</h1>
+            <div class="objektorienteretText">
+                <!--Overordnet Development-->
+                <p>Jeg er specialiseret i <a>objektorienteret programmering og design</a> og jeg arbejder enten <a>Agile eller Iterativt </a> afhængig af opgaven.<br>
+                    Mine design tager udgangspunkt i den <a> individuelle kunde</a>, deres behov og deres kunder.
+                    <br><br>
+                    <!--Partikulære sprog-->
+                    I kraft af min uddannelse arbejder jeg med OOD, men det føles også intuitivt for mig som en sprogligt anlagt person.<br>
+                    I forbindelse med min uddannelse har jeg erfaring med <a>Java</a> som backend technology, men jeg har også undersøgt Javas
+                    front end technology alternativer som: <a>Java Swing, JavaFX, Java Spring og Japplet</a>.
+                    <br><br>
+                    På datasiden af applikationen har jeg erfaring med <a>MySQL</a>, både OO og dokumentbaseret vha. <a>X-Plugin</a>.<br>
+                    Desuden er jeg stærk i de objektorienterede sprog <a>HTML, JavaSript og CSS</a>.
+                    <br><br>
+                    <!--Overordnet Design-->
+
+                    <br>
+                </p>
+            </div>
+            <div class ="objektorienteretImages">
     <img src="images/icons/java.png" />
-            <div class="overlay java"></div>
+
     <img src="images/icons/MySql.png" />
-            <div class="overlay mysql"></div>
+
     <img src="images/icons/HTML.JPG" />
-            <div class="overlay html"></div>
+
     <img src="images/icons/css.jpg" />
-                        <div class="overlay css"></div>
+            </div>
             <hr />
         </div>
 
 
 
     <div class="sideProj">
-        <h1 class="headline"><span class="headline"><span class="headline2">A</span>nden <span class="headline2">E</span>rfaring</span></h1>
+        <h1 class="headline">Anden Erfaring</h1>
 
 
         <div class="sideProj images">
         <img src="images/icons/sitecore.jpg" />
         <img src="images/icons/SAS.jpg" />
         <img src="images/icons/wordpress.png" />
-
 
         </div>
     </div>
@@ -165,7 +178,7 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
 
 
         <div class="beforeScroll project1Image" id="projects">
-            <h1 class="headline">Projects &darr;</h1>
+            <h1 class="headline" id="projectsH1">Projects &darr;</h1>
             <h1 class="projectHeadline"><span class="headline2">P</span>roject 1</h1>
             <img class="project1Image p1" src="images/exa.svg" />
             <div class="project1">
@@ -194,14 +207,16 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
         </div>
     </div>
 
-    <div class="footerContact">
-        <h3>Victor Adam Ott Frank</h3><h3>VictorOttFrank@yahoo.com</h3><h3>+45 25305919</h3>
+    <div class="footerContact" id="contact">
+        <h3>Victor Adam Ott Frank<br></h3><h3>VictorOttFrank@yahoo.com<br></h3><h3>+45 25305919<br></h3>
     </div>
 
 </div>
 
 
 <script>
+    hello();
+    hello2();
     click('job');
 </script>
 
