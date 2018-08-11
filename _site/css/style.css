@@ -558,20 +558,37 @@ hr {
     }
 
     *{
-        font-size: 1.1em;
+        font-size: 1.03em;
     }
 
     .navbar{
         height: 45px;
     }
     .navbar h2{
-        font-size: 1.1em;
-        margin-left: 7%;
+        font-size: 1.0em;
+        margin-left: 1%;
+    }
+
+    .landingPage{
+        width: 100%;
+    }
+
+    .landingPage h1{
+        line-height: 40px;
+    }
+    .landingPage h2{
+        text-align: center;
+        font-size: 0.9em;
     }
 
     .objektorienteretText p{
-        line-height: 35px;
+        line-height: 25px;
         font-size: 1.05em;
+    }
+
+    .objektorienteretImages img{
+        margin: 0;
+
     }
 
     #projectsH1{
@@ -616,7 +633,7 @@ hr {
     }
 
     *{
-        font-size:1.5em;
+        font-size:1em;
     }
 
     .navbar{
@@ -628,21 +645,20 @@ hr {
     }
 
     .landingPage{
-        height: 60vh;
+        height: 70vh;
     }
-
 
     .landingPage h2{
         margin-top: 2%;
         line-height:100%;
-        text-shadow: 9px 7px 0 rgb(0, 0, 0);
+        text-shadow: 3px 3px 0 rgb(0, 0, 0);
     }
 
     .navbar h2{
         margin-left: 10%;
+        font-size: 1.2em;
 
     }
-
 
     .background, .bio{
         width: 50%;
@@ -653,11 +669,13 @@ hr {
         padding: 0;
     }
 
+    .background h3{
+        padding-top: 20px;
+    }
+
     .bio h2, .background h3{
         text-align: center;
-        padding-top: 7%;
-        padding-bottom: 5%;
-        font-size: 1.3em;
+        font-size: 1.03em;
     }
 
     #catchphrase{
@@ -673,10 +691,15 @@ hr {
     }
 
     .biotext p{
-        line-height: 140px;
-        font-size: 0.5em;
+        line-height: 35px;
+        font-size: 0.7em;
         margin: 0;
-        padding-bottom: 15%;
+    }
+
+    #catchphrase{
+        line-height: 30px;
+        margin: 0;
+        padding-top: 0;
     }
 
     .background{
@@ -684,7 +707,7 @@ hr {
     }
 
     .background p{
-        line-height: 100px;
+        line-height: 40px;
     }
 
     .work{
@@ -699,26 +722,33 @@ hr {
     }
 
     .experience h5{
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
     .experience p {
         padding-top: 1%;
-        font-size: 0.3em;
+        font-size: 0.9em;
     }
 
-    .edivA{
-        margin-top: 5%;
-        margin-bottom: 5%;
-        padding: 1%;
-    }
+
+    #job1 h5{
+        width: 15%;
+    } #job2 h5{
+          width: 25%;
+      } #job3 h5{
+            width: 35%;
+        } #job4 h5{
+              width: 45%;
+          }
+
 
     .objektorienteretImages img{
         margin: 0;
     }
 
     .objektorienteretText p{
-        line-height: 150px;
+        line-height: 35px;
+        font-size: 1.4em;
     }
 
     .projectHeadline{
@@ -733,13 +763,17 @@ hr {
     }
 
     .project1 p, .project2 p{
-        line-height: 150px;
-        font-size: 0.3em;
-        margin: 10%;
+        line-height: 30px;
+        font-size: 1.3em;
+        margin: 1%;
+    }
+
+    .project1{
+        margin-bottom: 0;
     }
 
     .footerContact{
-        height: 20vh;
+        height: auto;
         font-size: 1em;
     }
 
