@@ -7,6 +7,10 @@ layout: null
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Personal Portfolio - Personlige portfolio. Victor Adam Ott Frank"/>
+	<meta name="keywords" content="Victor Adam Ott Frank, VictorOttFrank@yahoo, OOD, 
+	HTML5, CSS, Javascript, 25305919, Datamatiker, Projects, Freelance, Objekt Orienteret, Java, MySQL"/>
+	<meta name="author" content="Victor Adam Ott Frank"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <title>Title</title>
     <link rel="stylesheet" href="css/style.css" />
