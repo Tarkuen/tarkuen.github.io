@@ -336,6 +336,7 @@ hr {
     /*height:inherit;*/
     background: #ffffff center;
     background-size: cover;
+   -webkit-transform: scale3d(1,1,1);
 }
 
 .background2 h1{
