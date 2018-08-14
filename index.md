@@ -156,11 +156,15 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
     <img src="images/icons/css.jpg" />
             </div>
             <hr />
-        </div>
+       
+		 </div>
 
 
 
-    <div class="sideProj">
+    
+
+    </div>
+<div class="sideProj">
         <h1 class="headline">Anden Erfaring</h1>
 
 
@@ -171,9 +175,6 @@ Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at sp
 
         </div>
     </div>
-
-    </div>
-
 
     <div class="background3">
 
