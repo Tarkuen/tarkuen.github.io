@@ -216,7 +216,7 @@ user-select: none;
 }
 
 .abouttxt{
-	position:absolute;
+/* 	position:absolute; */
 	margin-top:-31vh;
 	margin-left: 5%;
 	width: 95vw;
