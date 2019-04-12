@@ -4,172 +4,223 @@
 
 layout: null
 ---
-	<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Main</title>
-    <link rel="stylesheet" href="css/Main.css" type="text/css">
-    <link rel="script" href="jquery-3.3.1.min.js">
-    <link rel="script" href="js/main.js">
+    <meta charset="UTF-8" />
+    <meta name="description" content="Personal Portfolio - Personlige portfolio. Victor Adam Ott Frank"/>
+    <meta name="keywords" content="Victor Adam Ott Frank, VictorOttFrank@yahoo, OOD,
+	HTML5, CSS, Javascript, 25305919, Datamatiker, Projects, Freelance, Objekt Orienteret, Java, MySQL"/>
+    <meta name="author" content="Victor Adam Ott Frank"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>Victor Adam Ott Frank</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet" />
+
+    <script src="js/jquery-3.3.1.min.js" rel="script"></script>
+    <script rel="script" src="js/main.js"></script>
 </head>
 <body>
 
-<div class="navbar">
-   <a href="#bio" id="icon1"><img src="ressources/Icons/person-icon-260nw-282598823.jpg.png" ></a>
-   <a href="#skills"  id="icon2"> <img src="ressources/Icons/skills.png"></a>
-    <a href="#project" id="icon3"><img src="ressources/Icons/project.png" ></a>
-</div>
 
-<div class="container1A">
+<div class="page">
 
-    <div class="bio" id="bio">
-        <img src="ressources/noCrop1.PNG" alt="me" class="bioimg">
+    <div class="navbar">
+        <a href="" onclick="pageHeightChecker('bio')"><h2>Bio</h2></a>
+        <a href="" onclick="pageHeightChecker('skills')"><h2>Kompetencer</h2></a>
+        <a href="" onclick="pageHeightChecker('projects')"><h2>Projekter</h2></a>
+        <a href="" onclick="pageHeightChecker('contact')"><h2>Kontakt</h2></a>
+
+    </div>
+
+    <div class="landingPage">
+
+        <h1 class="headline">Victor Adam Ott Frank </h1>
+        <h2 class="headline">Object Oriented Development <br /> and Web</h2>
+
+    </div>
+
+    <div class="afterScroll bio" id="bio">
+
         <div class="biotext">
-            <h1 class="headline">Victor Adam Ott Frank</h1>
-            <p>Jeg er 24 år, læser en erhvervsakademisk uddannelse som datamatiker og bor I Ølstykke med min kæreste.
 
-                På min uddannelse har jeg specialiseret mig i desktop applikationer, dvs. servlets og web baserede applets.  Fagligt er jeg stærkest i objektorienteret programmering og databaser - både relationelle og dokumentbaserede løsninger.<br> Jeg har mest erfaring med alsidige, objektorienterede sprog som Java, SQL, HTML, men undervejs har jeg også arbejdet med NoSQL og CSS.
+            <h2 class="headline">Hvem er jeg?</h2>
 
-            </p> <hr><p>
-                <br>Mine studiejobs har ikke tidligere været studierelevante, men gennem flere år som 1. assistent i Netto har jeg lært at bibeholde det store overblik og arbejde som den ansvarlige i et team af flere mennesker. <br> Og det er altid mig, der bliver kaldt på, når nogen i familien har problemer med deres teknologi - uanset om det er computere, iPhones eller overvågning i svigerfamiliens firma 😊.
+            <p id="catchphrase">Release Early - Release Often
+            <br />
+            <br />
+            </p>
+            <hr />
+            <br />
+            <!--<br />-->
+            <p>
+               Jeg er 24 år, læser en erhvervsakademisk uddannelse som datamatiker og bor I Ølstykke med min kæreste. Jeg er analytisk skarp, nysgerrig og bestemt ikke bange for en udfordring. Derudover er jeg imødekommende og altid mødestabil. 
+ <br />
+Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at specialisere mig videre til bachelor niveau i IT-sikkerhed,  da det er her, min interesse især ligger.
+            </p>
 
-                <br>Derudover har jeg studeret dansk to år på Københavns Universitet, og selvom min kærlighed for sprog ikke er forsvundet, så har jeg valgt at skifte fag. Det har det givet mig brugbar viden om professionelle genrer og kommunikationsanalyse og det har givet mig erfaring med tekstproduktion.
-                </p><hr> <p>
-                <br>Personligt er jeg analytisk skarp, nysgerrig og bestemt ikke bange for en udfordring. Derudover er jeg imødekommende og altid mødestabil Når jeg har fuldført min nuværende uddannelse i 2019, har jeg planer om at specialisere mig videre til bachelor niveau i IT-sikkerhed,  da det er her, min interesse især ligger.       </p>
+
         </div>
     </div>
-    <div class="container1B">
-        <div class="background">
-            <h3 class="headline">Bio</h3>
-            <p>
-                Navn: <span style="color:   #ff6600; font-size: 13px;">Victor Adam Ott Frank</span> <br>
-                Alder:<span style="color:   #ff6600; font-size: 13px;"> 24</span> <br>
-                Nuværende Uddannelse:<span style="color:   #ff6600; font-size: 13px;"> Datamatiker AK</span> <br>
-                Fra:<span style="color:   #ff6600; font-size: 13px;"> Hovedstadsområdet</span><br>
-            </p>
-        </div>
 
-        <div class="work">
-            <h3 class="headline">Erfaring</h3>
-            <p> <span style="color:   #ff6600; font-size: 13px;">1. Assistent</span> | Sep 2014 -  | v. Netto
-                Nøglebærer, primært lukkevagter. Overblik, struktur i arbejdsgangene og lokal ledelse af aftenhold.
-            <br><span style="color:   #ff6600; font-size: 13px;">Lageransvarlig</span> | 2015 | v. Aldo
-                Lageransvarlig v. Aldo i Rødovre. Optælling, opsætning og kontrol af varer.
-            </p><hr><p>
-            <br><span style="color:  #ff6600; font-size: 13px;">IT-medhjælper</span> | Feb. 2017 -  | Spunk Bar ApS.
+    <div class="afterScroll background">
+
+        <h3 class="headline">FACTS</h3>
+        <p>
+            Victor Adam Ott Frank <br />
+            24 år <br />
+            Datamatiker AK<br />
+        </p>
+    </div>
+
+    <div class="work">
+        <h3 class="headline">Erfaring</h3>
+
+        <ul class="experience elist">
+            <li id="job1"><h5 id="job1H">1.Assistent</h5>
+            <div class="experience ediv" id="job1div">
+
+                <p> 1. Assistent | Sep 2014 -  | v. Netto<br />
+                    Nøglebærer, primært lukkevagter.<br> Overblik, struktur i arbejdsgangene og lokal ledelse af aftenhold.
+                    <br />
+                </p>
+            </div>
+            </li>
+
+            <li id="job2"><h5 id="job2H">Lageransvarlig</h5>
+            <div class="experience ediv" id="job2div">
+
+                <p> Lageransvarlig | 2015 | v. Aldo<br />
+                    Lageransvarlig v. Aldo i Rødovre. Optælling, opsætning og kontrol af varer.
+                </p>
+            </div>
+            </li>
+
+            <li id="job3"><h5 id="job3H">IT-Assistent</h5>
+            <div class="experience ediv" id="job3div">
+                <p>
+                IT-Assistent | Feb. 2017 -  | Bent Anthony ApS.<br />
                 Ad-hoc opgaver, samt opsætning af Mobilepay Buisness.
-               <br>
-            <br><span style="color:   #ff6600; font-size: 13px;">Freelance</span> | April 2018 | Morten Nørgaard Trade  Udviklet en Java Spring MVC applikation, en oversigt over restordrer, med tilhørende GUI og en lokal database server.</p>
+
+                </p>
+            </div>
+            </li>
+            <li id="job4"> <h5 id="job4H">Java Udvikler</h5>
+                <div class="experience ediv" id="job4div">
+                    <p>
+                    Java Udvikler | April 2018 | Mogens Nørgaard Trade <br />
+                    Udviklet en Java Spring MVC applikation, <br> en oversigt over restordrer, med tilhørende GUI og en lokal database server.
+                    </p>
+
+                </div>
+            </li>
+        </ul>
+
+
+            <br />
+            <br /><hr />
+        <br />
+        <br />
+    </div>
+
+
+
+    <div class=" background2">
+
+        <div class="beforeScroll objektorienteret" id="skills">
+            <h1 class="headline">Foretrukne Sprog</h1>
+            <div class="objektorienteretText">
+                <!--Overordnet Development-->
+                <p>Jeg er specialiseret i <a>objektorienteret programmering og design</a> og jeg arbejder både <a>agile eller iterativt </a> afhængig af opgaven.<br />
+                    Mine design tager udgangspunkt i den <a> individuelle kunde</a>, deres behov og deres kunder.
+                    <br /><br />
+                    <!--Partikulære sprog-->
+                    I kraft af min uddannelse arbejder jeg med OOD, men det føles også intuitivt for mig som en sprogligt anlagt person.<br />
+                    I forbindelse med min uddannelse har jeg erfaring med <a>Java</a> som backend technology, men jeg har også undersøgt Javas
+                    front end technology alternativer som: <a>Java Swing, JavaFX, Java Spring og Japplet</a>.
+                    <br /><br />
+                    På datasiden af applikationen har jeg erfaring med <a>MySQL</a>, både OO og dokumentbaseret vha. <a>X-Plugin</a>.<br />
+                    Desuden er jeg stærk i de objektorienterede sprog <a>HTML, JavaSript og CSS</a>.
+                    <br /><br />
+                    <!--Overordnet Design-->
+
+                    <br />
+                </p>
+            </div>
+            <div class="objektorienteretImages">
+    <img src="images/icons/java.png" />
+
+    <img src="images/icons/MySql.png" />
+
+    <img src="images/icons/HTML.JPG" />
+
+    <img src="images/icons/css.jpg" />
+            </div>
+            <hr />
+       
+		 </div>
+
+
+
+    
+
+    </div>
+<div class="sideProj">
+        <h1 class="headline">Anden Erfaring</h1>
+
+
+        <div class="sideProj images">
+        <img src="images/icons/sitecore.jpg" />
+        <img src="images/icons/SAS.jpg" />
+        <img src="images/icons/wordpress.png" />
+
         </div>
     </div>
+
+    <div class="background3">
+
+
+        <div class="beforeScroll project1Image" id="projects">
+            <h1 class="headline" id="projectsH1">Projects &darr;</h1>
+            <h1 class="projectHeadline"><span class="headline2">P</span>roject 1</h1>
+            <img class="project1Image p1" src="images/exa.svg" />
+            <div class="project1">
+                <br />
+                <div class="projectText">
+                    <p>Mit første erhvervsprojekt har jeg udviklet i samarbejde med <a href="http://www.mn-trade.dk/">MN-trade</a> som havde brug for et nyt system til at holde styr på sine restordrer.
+                        <br /> Til udviklingen gjorde jeg brug af en evolutionær/iterativt UP tilgang og under modelleringsfasen brugte jeg Unified  Modeling Language <a href="#">(UML)</a>.
+                        <br /> Selve applikationen er skrevet i Java Spring og efterfølgende hosted hos <a> Amazon Web Services </a>, ved hjælp af Amazon Elastic Beanstalk, Amazon Relational Database (som kører MySQL) og tilhørende Firewall.
+                    </p>
+                </div>
+            </div>
+
+            <h1 class="projectHeadline"><span class="headline2">P</span>roject 2</h1>
+            <img class="project1Image p2" src="images/food.svg" />
+
+            <div class="project2">
+                <br />
+                <div class="projectText">
+                    <p>Dette projekt har jeg udviklet efter, at have besøgt mange forskellige sider for opskrifter og brugt apps som Pinterest. Til fælles har disse sider og applikationer at de alle bruger enkle keywords og tags til at beskrive opskrifterne.<br />
+                        Derfor udviklede jeg denne <a>application med tilhørende hjemmeside og database</a>, hvilket gøre det muligt at søge i kategorier som er langt bredere end enkle keywords.
+                        <br /> Dette var med henblik på at gøre det nemmere og mere overskueligt at søge i forskellige køkkener, samt se forberedelsestid og vælge sin primære ingrediens (alt fra gris til vegetarisk).
+                        <br /> Selve applikationen er skrevet i <a>Java Spring</a> og efterfølgende hosted hos <a>Amazon Web Services</a>, ved hjælp af <a>Amazon Elastic Beanstalk, Amazon Relational Database</a> (som kører MySQL) og tilhørende Firewall.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footerContact" id="contact">
+        <h3>Victor Adam Ott Frank<br /></h3><h3>VictorOttFrank@yahoo.com<br /></h3><h3>+45 25305919<br /></h3>
+    </div>
+
 </div>
-<div class="container2A" id="skills">
-    <div class="objektorienteret">
-        <h1 class="headline"><span style="font-size: 25px;"><span style="color:   #ff6600; font-size: 28px;">O</span>bjekt <span style="color:   #ff6600; font-size: 28px;">O</span>rienteret <span style="color:   #ff6600; font-size: 28px;">P</span>rogrammering</span></h1>
-        <img src="ressources/Icons/java.png">
-        <div class="objektorienterettekst">
-            <h3 class="headline">Java</h3>
-            <p>Java er det sprog som jeg først arbejde i, indenfor kodning og design af software. Derfor er det også et sprog som jeg føler mig særligt hjemme i og det er også herfra at min viden om OOP stammer fra.
-            <br> Til software design har jeg primært arbejdet med Craig Larmans' UML, da det er særdeles godt sprog til hurtigt at stamme overenstemmelse imellem kunde og udviklere. Derudover fungerer det godt til at strukturere udviklingsprocessen.
-            <br> Inden for Java har arbejdet med henholdsvis: <br>
-            </p>
-                <ul class="">
-            <li> Java FX </li>
-            <li> Java Spring </li>
-            <li> Java Swing </li>
-            <li> JApplet </li>
-            <li> Java Enterprise </li>
-                </ul>
-            <p>
-
-            </p>
-        </div>
-        <img src="ressources/Icons/MySql.png">
-        <div class="objektorienterettekst">
-            <h3 class="headline">MySQL</h3>
-            <p>MySQL Database var den første relationelle database som jeg arbejdede med. Det vil sige, oprettede, vedligeholdte og lærte at skrive SQL statements til.
-            Det er indenfor for dette open-source projekt, at min viden om relationelle databaser kommer fra og hvor nemt det er at bruge i de fleste kontekster.
-                <br> Desuden har jeg erfaring med at køre MySQL'<span style="color:#ff6600;"> X-Plugin</span>, som gør det til en dokument-baseret database, ved hjælp af <span style="color:#ff6600;"> JSON objekter. </span>
-                 <br>Det er ligeledes erfaringen herfra, som har gjort det nemt at sætte sig ind i software som <span style="color:#ff6600;">SAS Studio</span>, der bruges til at behandle og særligt analysere store dataset.
-            </p>
-        </div>
-        <br>
-        <br>
-        <br>
-        <hr>
-    </div>
 
 
-    <div class="web">
-        <h1 class="headline"><span style="font-size: 25px;"><span style="color:   #ff6600; font-size: 28px;">W</span>eb</span></h1>
-        <img src="ressources/Icons/HTML.JPG">
-        <div class="webtekst">
-            <h3 class="headline">HTML5</h3>
-            <p>I forbindelse med Java Swing har jeg lært at skrive HTML kode, herunder HTML5 dokumenter. <br>
-                Dette sprog hænger særligt godt sammen med Java og OOP, da det (ved hjælp af eksempelvis en Thymeleaf Engine) støtter at der kan hentes information direkte fra databaser, da det objektorienteret.
-                Da webudvikling idag har et særligt fokus på det visuelle indtryk, har jeg naturligvis også lært <span style="color:   #ff6600; font-size: 15px;">CSS3</span>,<br> samt <span style="color:   #ff6600; font-size: 15px;">JavaScript</span>.
-                <br> Efterfølgende har jeg selv skrevet denne hjemmeside, med tilhørende CSS og Javascript.
-                <br>
-            </p>
-        </div>
-        <img src="ressources/Icons/css.jpg">
-        <!--<div class="webtekst">-->
-            <!--<h3 class="headline">CSS3</h3>-->
-            <!--<p>-->
-                <!--<br> </p>-->
-        <!--</div>-->
-        <br>
-        <br>
-        <br>
-        <hr>
-    </div>
-
-
-    <div class="sideProj">
-        <h1 class="headline"><span style="font-size: 20px"><span style="color:   #ff6600; font-size: 23px;">A</span>nden <span style="color:   #ff6600; font-size: 23px;">E</span>rfaring</span></h1>
-        <h3 class="headline">Sitecore</h3><h3 class="headline">SAS Studio</h3><h3 class="headline">WordPress</h3>
-        <img src="ressources/Icons/sitecore.jpg">
-        <img src="ressources/Icons/SAS.jpg">
-        <img src="ressources/Icons/wordpress.png">
-    </div>
-</div>
-<div class="container3A" id="project">
-    <div class="project1">
-        <h1 class="headline"><span style="color:#00dddd; font-size: 25px">P</span>roject 1</h1>
-        <br>
-        <div class="projectText">
-            <p>Mit første erhvervsprojekt har jeg udviklet i samarbejde med <a href="http://www.mn-trade.dk/" style="text-decoration: none; color: white ;font-weight: bold">MN-trade</a> som havde brug for et nyt system til at holde styr på sine restordrer.
-            <br> Til udviklingen gjorde brugte jeg en evolutionær/iterativt UP tilgang og under modelleringsfasen brugte jeg Unified  Modeling Language.
-                <br> Selve applikationen er skrevet i Java Spring og efterfølgende hosted hos Amazon Web Services, ved hjælp af Amazon Elastic Beanstalk, Amazon Relational Database (som kører MySQL) og tilhørende Firewall.
-
-            </p>
-        </div>
-    </div>
-</div>
-
-<div class="project1Image"> </div>
-
-<div class="container3A">
-     <div class="project2">
-         <h1 class="headline"><span style="color:#00dddd; font-size: 25px">P</span>roject 2</h1>
-         <br>
-        <div class="projectText">
-            <p>Dette projekt har jeg udviklet efter, at have besøgt mange forskellige sider for opskrifter og brugt apps som Pinterest, som alle bruger keywords og tags til at foreslå opskrifter.<br>
-            Denne hjemmeside med tilhørende database, forsøgte istedet at gøre det muligt at søge i kategorier som er langt bredere.
-                <br> Dette var med henblik på at gøre det nemmere og mere overskueligt at søge i forskellige køkkener, kød eller ej, og tid til tilberedelse.
-                <br> Selve applikationen er skrevet i Java Spring og efterfølgende hosted hos Amazon Web Services, ved hjælp af Amazon Elastic Beanstalk, Amazon Relational Database (som kører MySQL) og tilhørende Firewall.
-            </p>
-        </div>
-    </div>
-</div>
-
-<div class="project1Image2"> </div>
-
-
-<div class="footerContact">
-    <h3>Victor Adam Ott Frank</h3><h3>VictorOttFrank@yahoo.com</h3><h3>+45 25305919</h3>
-</div>
+<script>
+    hello();
+    hello2();
+    click('job');
+</script>
 
 </body>
 </html>
