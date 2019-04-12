@@ -1,0 +1,557 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+	max-width: 100%;
+	overflow-x: hidden;
+	/*z-index: 1;*/
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*OVERLAY FOR Skills - Objektorienteret IMAGES*/
+
+.overlay{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+/*Headlines*/
+
+.headline{
+    font-family: "Arial", sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 2px 1px 0 rgb(0, 0, 0);
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+	overflow-y: hidden;
+}
+
+.headline3{
+    font-size: 1.5em;
+    color: #ff6600;
+}
+
+/*Landing Page*/
+
+.hero{
+	height:100%;
+	width: 100%;
+	overflow-y: hidden;
+}
+
+.herobg{
+	width: 100%;
+	height: 100%;
+	display: inherit;
+
+}
+
+.herowelcome{
+	position: absolute;
+	margin-left: 35%;
+	margin-top: 40%;
+	/* border: 0.5px solid white; */
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 3em;
+	padding-left: 3em;
+	
+	width: fit-content;
+	cursor: pointer;
+	background-color: rgb(27, 210, 27);
+}
+
+.herowelcome h2{
+	color: white;
+	font-size: 1.5em;
+}
+
+.herowelcome:hover {
+	background-color: rgb(27, 210, 27);
+}
+
+.herowelcome:hover h2{
+	color: white;
+}
+
+.herologo{
+	width: 64px;
+		height: 64px;
+		position:fixed;
+		z-index:1;
+		margin-top: 89vh;
+		margin-left: 90%;
+}
+
+.work{
+	background-image: url("lunacy Temp/workbackground.png");
+	background-size: cover;
+	background-blend-mode: screen;
+	height: 185vh;
+	width: 100%;
+	z-index: 2;
+}
+
+.work img{
+	display: inherit;
+}
+
+#workbackground, #ML, #App, #MS{
+	top: 0;
+	left:0;
+}
+
+#workbackground{
+	height: 165vh;
+	width: 100vw;
+	position: inherit;
+}
+
+#App{
+	position: absolute;
+	width: 40%;
+	top: 150vh;
+	left: 50vw;
+}
+
+#ML{
+	position: absolute;
+	width: 40%;
+	top: 130vh;
+	left: 5vw;
+}
+
+#MS{
+	position: absolute;
+	width: 40%;
+	top: 200vh;
+	left: 5vw;
+}
+
+
+.about{
+	margin-top: -20vh;
+}
+
+.aboutpost{
+	background-color: black;
+	margin-left: 10%;
+	width: 100vw;
+	height: 150vh;
+	color: white;
+}
+
+.aboutbg{
+	height:inherit;
+}
+
+.abouttxt{
+	position:absolute;
+	margin-top:-31vh;
+	margin-left: 5%;
+	width: 95vw;
+}
+
+/* Identity */
+
+.identity_div {
+	height: 100%;
+	width:100%;
+}
+
+.identity_section{
+	
+}
+
+.identity_head{
+	
+	
+}
+
+.identity_para{
+	
+	
+}
+
+/* Skills */
+
+/*Conteact Footer */
+.contact{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    height: 100%;
+}
+.cv{
+	height: 100%;
+	width: 100%;
+	margin-right: 50px;
+	padding-bottom: 10vh;
+	
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -o-background-size:contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+	background-image: url("table.jpg");
+	background-size: cover;
+}
+
+.cvh1{
+	font-size: 2em; 
+	margin-left: -40px; 
+	margin-top: 20px;
+}
+
+.cvpara{
+	position: inherit;
+	height: auto;
+	width: 60%;
+	right: 0%;
+	left: 0%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 7vh;
+	z-index: 0;
+	
+	
+}
+
+/*Bio Text Drop Down*/
+
+.biobg{
+	height: 100%;
+	width: 100%;
+}
+
+/* Hides the Scrollbar across the page */
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+/*Biography, Background, Work */
+
+/*All Backgrounds*/
+
+.background{
+    color: white;
+    background: #000000 center;
+    background-size: cover;
+}
+
+hr {
+    border: 1px solid white;
+    width: 85%;
+    margin-left: 7%;
+}
+
+
+/*Calling Card Styling*/
+
+.background{
+    width: 100%;
+}
+
+@keyframes opacity {
+    to { transition: opacity 1s ease-in-out }
+}
+
+/*Skills - Object Oriented*/
+
+/* Skills - Web */
+
+/*Background 3*/
+
+/*Main Projects - Project 1*/
+
+/*Image Hover Details*/
+
+.beforeScroll{
+    visibility: hidden;
+}
+
+.afterScroll{
+    visibility: visible;
+    transform: translateY(400px);
+    animation: come-in 0.8s ease forwards;
+}
+
+@keyframes come-in {
+    to { transform: translateY(0); }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+    body{
+        background-color: white;
+    }
+	
+	.cvpara{
+		margin-top: 4vh;
+		margin-left: 5%;
+		width: 90%;
+	}
+
+	.herologo{
+		width: 64px;
+		height: 64px;
+		position:fixed;
+		z-index:1;
+		margin-top: 89vh;
+		margin-left: 80%;
+	}
+	
+	.herowelcome{
+		padding: 0.5em;
+		font-size: 0.5em;
+		margin-top: 33%;
+	}
+	
+	.herowelcome h2{
+		font-size: 0.8em;
+	}
+	
+	.cvh1{
+		margin-left: 0;
+		font-size: 1.5em;
+	}
+	
+	.work{
+		height: 50vh;
+		width:100vw;
+	}
+	
+	#App{
+		top:45vh;
+	}
+	
+	#ML{
+		top:35vh;
+	}
+	
+	#MS{
+		top:60vh;
+	}
+	
+	.about{
+		margin-top: -7vh;
+	}
+	
+	.aboutbg{
+		height:inherit;
+	}
+	
+	.abouttxt{
+		margin-top: -10vh;
+	}
+	
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 900px){
+    body{
+       background-color: white;;
+    }
+
+    *{
+        font-size: 1.03em;
+
+    }
+	
+	.cvpara{
+		margin-top: 4vh;
+		margin-left: 5%;
+		width: 90%;
+	}
+	
+	.herowelcome{
+		padding: 0.5em;
+		margin-top: 27%;
+	}
+	
+	.herowelcome h2{
+		font-size: 0.8em;
+	}
+	
+	.herologo{
+		margin-left:80%;
+	}
+	
+	.work{
+		height: 60vh;
+		width:100vw;
+	}
+	
+	#App{
+		top:50vh;
+	}
+	
+	#ML{
+		top:40vh;
+	}
+	
+	#MS{
+		top:65vh;
+	}
+	
+	.about{
+		margin-top: -7vh;
+	}
+	
+	.aboutbg{
+		height:inherit;
+	}
+	
+.abouttxt{
+		margin-top: -10vh;
+	}
+
+	
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px){
+	.hero{
+		height: 70vh;
+		background-repeat: round;
+	}
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) and (max-width: 1400px) {
+
+    body{
+        background-color: white;
+    }
+
+    *{
+        font-size:1em;
+    }
+	
+    .background, .bio{
+       /* width: 50%;*/
+        display: inline-block;
+    }
+
+    .background{
+        padding: 0;
+    }
+
+    .background h3{
+        padding-top: 20px;
+		
+    }
+
+    .background{
+        border-bottom: 5px solid #008fff;
+    }
+
+    .background p{
+        line-height: 40px;
+    }
+
+	.cvpara{
+		width: 600px;
+		margin-left: 15%;
+	}
+	
+	.hero{
+		background-repeat: round;
+	}
+	
+	.herowelcome{
+	
+	}
+	
+	.herowelcome h2{
+		font-size: 1.5em;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+		-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+	}
+	
+	.herologo{
+		width: 90px;
+		height: 90px;
+		margin-top: 80vh;
+	}
+	
+	
+}
+
+
+
